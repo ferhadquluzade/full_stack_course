@@ -1,0 +1,70 @@
+body {
+    background: #444444;
+}
+
+.main {
+    margin: 5px 70px 10px;
+}
+
+.header-pic {
+    height: 200px;
+    width: 1195px;
+    margin-bottom: 100px;
+}
+
+.pic {
+    width: 280px;
+    height: 300px;
+}
+
+.content {
+    width: 180px;
+    height: 150px;
+    padding: 10px;
+    width: 100%;
+}
+
+.date {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.card-tags {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.card-title {
+    font-family: Daniel;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.card-content {
+    font-size: 17px;
+    width: 95%;
+}
+
+.center {
+    width: 1600px;
+    height: auto;
+    /* border: solid red; */
+}
+
+button{
+    margin: 15px 70px 15px;
+    border: solid white;
+    border-radius: 50px;
+    height: 45px;
+    width: 130px;
+    background: #7EB5F5;
+    color: white;
+}
+
+.card {
+    display: inline-block;
+    margin-right: 20px;
+    width: 280px;
+    height: 530px;
+    background: white;
+}
