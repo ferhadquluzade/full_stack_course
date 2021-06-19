@@ -1,0 +1,271 @@
+/* 29,258 ? */
+body {
+    background: black;
+    margin: 0px;
+}
+
+.main {
+    margin: 0px 50px;
+    background: white;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+/* header */
+
+.header {
+    border: solid white;
+    box-sizing: border-box;
+    height: 68px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: black;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial;
+    /* flex-wrap:wrap; */
+}
+
+.link a {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.link span {
+    font-weight: 600;
+}
+
+.search input {
+    border-radius: 10px;
+    float: left;
+    height: 40px;
+    font-size: 22px;
+    width: 250px;
+    outline: none;
+}
+
+.search button {
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    float: left;
+    height: 40px;
+    width: 120px;
+    background: blue;
+    color: white;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5ms;
+}
+
+.search button:hover {
+    margin-left: 5px;
+    float: left;
+    height: 40px;
+    width: 120px;
+    /* border-radius:150px; */
+    background: white;
+    color: blue;
+    border-radius: 10px;
+    border: blue solid;
+    box-sizing: border-box;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* header */
+
+/* center */
+
+.center {
+    margin-top: 55px;
+}
+
+/* cards */
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.descr {
+    width: 250px;
+    height: 20%;
+    background: #F1F1F1;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 25px;
+    font-weight: 380;
+}
+
+/* cards */
+
+/*contact  */
+
+.contact {
+    margin: 25px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header */
+
+.c-header {
+    color: black;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    background: #F2F2F2;
+    padding: 30px;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+.c-header .content1 {
+    font-size: 25px;
+    width: 250px;
+    margin: 20px;
+}
+
+.c-header .content2 {
+    margin: 20px;
+    width: 400px;
+    font-size: 25px;
+}
+
+.content1 title {
+    font-size: 50px;
+}
+
+/* header */
+
+/* get in touch */
+
+.get-in-touch {
+    width: 400px;
+}
+
+.get-in-touch span {
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.get-in-touch input {
+    background: #2EA5C9;
+    width: 400px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.get-in-touch hr {
+    margin: 40px 0px;
+}
+
+/* get in touch */
+
+/*contact  */
+
+/* logo and items */
+
+.lg-items {
+    width: auto;
+    width: auto;
+}
+
+.lg-descr {
+    background: #F1F1F1;
+    width: 100%;
+    height: 30%;
+    font-size: 25px;
+}
+
+.lg-img {
+    background: #F1F1F1;
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+}
+
+.logo button {
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background: #2EA5C9;
+    margin: 15px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.logo {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    margin-right: 15px;
+}
+
+.lg-cards {
+    margin-left: 15px;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lg-card {
+    margin: 0px 70px 20px 0px;
+    width: 30%;
+    height: 20%;
+}
+
+/* center */
+
+/* footer */
+
+.footer {
+    width: 100%;
+}
+
+.footer hr {
+    margin: 70px 0px;
+}
+
+.footer .content {
+    display: flex;
+    /* justify-content: flex-between; */
+}
+
+.copyright {
+    margin-right: 70%;
+}
+
+.links .link {
+    text-decoration: none;
+    color: blue;
+}
+
+/* footer */
