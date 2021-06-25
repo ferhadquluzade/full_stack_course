@@ -1,0 +1,115 @@
+.main {
+    width: 1080px;
+    height: 460px;
+}
+
+.header {
+    justify-content: space-between;
+    background: black;
+    color: white;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.media-links {
+    margin-bottom: 0px;
+    ;
+}
+.media-icon:nth-child(1){
+    color:blue;
+}
+
+.icon-clr {
+    color: lightblue;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.margin-r, li {
+    margin-right: 5px;
+}
+
+.center {
+    height: 410px;
+    background: black;
+    opacity: 0.7;
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+}
+
+.center-header {
+    width: 100%;
+}
+
+.tx-btn {
+    position: relative;
+    top: 200px;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.tx-btn p {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.read-btn {
+    margin-right: 20px;
+    color: white;
+    background: lightblue;
+    border: none;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.buy-btn {
+    font-weight: bold;
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background: green;
+}
+
+.nav-links {
+    color: white;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: white;
+}
+
+.text span {
+    font-style: italic;
+}
+
+.buy-btn {
+    background-image: lightgreen;
+    color: white;
+}
