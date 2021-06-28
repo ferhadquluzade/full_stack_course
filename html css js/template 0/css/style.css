@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* background: red; */
+    background-image: url('https://www.tuv.com/content-media-files/master-content/services/products/p05-medical/1665-tuv-rheinland-eu-medical-device-regulation-mdr-2017-745/fotolia_117124325_x_bearbeitet_sergey-nivens.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rNav{
+    width: 100%;
+    min-height: 70px;
+    /* background: blue; */
+    /* padding: 10px;
+    box-sizing: border-box; */
+    display: flex;
+}
+
+
+.rNav ul{
+    margin: 0px;
+}
+
+.rNav ul a li{
+    list-style-type: none;
+    float: left;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border:2px solid transparent;
+}
+
+.rNav ul a li:hover{
+    /* background: #4EACC7; */
+    border-bottom: 2px solid #F79A10;
+    color: #F79A10;
+}
+
+.rNav ul a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 190px;
+    min-height: 70px;
+    padding: 13px 10px 10px 40px;
+    box-sizing: border-box;
+    /* background: purple; */
+    object-fit: cover;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    width: 50px;
+    min-height: 50px;
+    background:blue;
+    position: fixed;
+    top: 40%;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.sNet{
+    width: 150px;
+    height: 50px;
+    /* background: yellow; */
+    float: left;
+    transition: 0.5s;
+    position: relative;
+    left: -100px;
+    /* margin: 10px 0px; */
+}
+
+.sNet:hover{
+    left: 0px;
+}
+
+.text{
+    width: 100px;
+    height: 50px;
+    /* background: green; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sIcon{
+    width: 50px;
+    height: 50px;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+.f{
+    background: #4064AC;
+}
+
+.w{
+    background: #58F778;
+}
+
+.t{
+    background: #3FA6DA;
+}
+
+.g{
+    background: #E34133;
+}
+
+/* .sNet:last-child{
+    margin-top: 0px;
+} */
+
+
+.myStyle{
+    font-size: 30px;
+    color: white;
+}
+
+/* .myFB{
+    
+    
+}
+
+.myWP{
+    color: white;
+}
+
+.myTW{
+    color: white;
+}
+
+.myGO{
+    color: white;
+} */
