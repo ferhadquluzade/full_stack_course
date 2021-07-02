@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fHeader, .fNav, .fArt, .fAds, .fFooter {
+    background-color: yellow;
+    width: 100%;
+}
+
+.fNav, .fArt, .fAds {
+    min-height: 400px;
+}
+
+.fHeader {
+    margin-bottom: 15px;
+    min-height: 70px;
+}
+
+.fFooter {
+    margin-top: 15px;
+    min-height: 70px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .fNav, .fFooter{
+        min-height:50px;
+    }
+    .noPad{
+        padding:0px;
+    }
+ }
